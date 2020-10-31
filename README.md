@@ -3,3 +3,4 @@ Como parte del proyecto de sistemas web, hemos decidido como equipo crear un sis
 
 
 Hola soy Guadalupe estoy en la materia de sistemas web y estamos desarrollando un proyecto, el cuál estará muy interesante:)
+Vamos a abordar diferentes  conocimientos que hemos adquirido ademde adquirir más conocimiento.    
