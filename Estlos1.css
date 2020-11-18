@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+body{
+	margin: 0;
+	background-color: black;
+	height: 1200px;
+}
+.padre {
+	width: 100%;
+	height: 400px;
+  /* IMPORTANTE */
+  text-align: center;
+	background-color: black;
+	color: silver;
+}
+
+.hijo {
+  border: solid  silver 5px;
+  padding: 10px;
+  margin: 10px;
+	width: 30%;
+	height: 90%;
+  
+  /* IMPORTANTE */
+  display: inline-block;
+}
+#BaseTitulo{
+	/*margin-top: 10px;*/
+	width: 100%;
+	
+	
+}
+#Titulo{
+	font-family:"Times New Roman";
+	color: silver;
+	text-align: center;
+}
+#Cabecera{
+	/**/
+	border-bottom: solid silver 10px;
+	padding: 10;
+	width: 100%;
+	height: 160px;
+	background-color: black;
+	
+}
+#Bucar{
+	font-size: 14px;
+	color :silver;
+	padin 5px;
+}
+#botones{
+	text-align: right;
+}
+#btn1{
+	color: silver;
+	
+	text-align: center;
+	margin: 5px;
+}
+#busqueda{
+	width: 30%;
+}
+
