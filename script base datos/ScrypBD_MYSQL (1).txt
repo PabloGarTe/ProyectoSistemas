@@ -1,0 +1,22 @@
+use dbtiendaenlinea;
+
+select * from venta;
+
+select * from Producto;
+
+select * from comentario;
+
+select * from Usuario;
+
+
+
+create table comentario(id int(10)primary key auto_increment,correoCliente varchar(30) not null,nombreCliente varchar(30) not null, decripcion varchar(250) not null);
+
+create table venta(id int(10)primary key auto_increment, nombreCliente varchar(30) not null, tarjeta varchar(30) not null,clave varchar(30) not null);
+
+create table Usuario(correo varchar(40) primary key not null, nombre varchar(25) not null, apellido varchar(40), direccion varchar(50) not null, contrasena varchar(10)not null, ciudad varchar(25)not null, codigoPostal varchar(8)not null);
+
+create table Producto(nombreProducto varchar(40) primary key not null, precioProducto float not null, descripcionProducto varchar(200) not null, imagenProducto varchar(50) not null);
+insert into venta values(1,'Lalo','123456789123456','12345');
+
+insert into comentario values (1,'lale@gmail.com', 'lalo','Producto de cuidado de la piel eqivocado a la orden del pedido');
