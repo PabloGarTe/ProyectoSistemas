@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Checkout example · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/checkout/">
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="archivos\form-validation.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    <div class="container">
+  <div class="py-5 text-center">
+    <img class="d-block mx-auto mb-4" src="assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+    <h2>Registro de usuario</h2>
+    <p class="lead"></p>
+  </div>
+
+  
+    
+    <div class="col-md-8 order-md-1">
+      <h4 class="mb-3">Datos Bancarios</h4>
+      
+   
+       
+      <form class="navbar-form navbar-right" role="form" action="/" method="">
+        <div class="mb-3">
+          <label for="tarjeta">Numero de tarjeta </label>
+          <input type="text" class="form-control" id="numTarjeta" >
+          <div class="invalid-feedback">
+            Introduce una Tarjeta validad.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="email">Codigo de Seguridad </label>
+          <input type="text" class="form-control" id="codigoSeguridad" >
+          <div class="invalid-feedback">
+            Introduce un codigo valido.
+          </div>
+        </div>
+        
+        <hr class="mb-4">
+        <div class="custom-control custom-checkbox">
+        <hr class="mb-4">
+        <button class="btn btn-success" type="button" id ="compra">Realizarcompra</button>
+      </form>
+    </div>
+    
+  </div>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2017-2020 Company Name</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+  </footer>
+</div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="assets\js\compraProducto.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="archivos\form-validation.js"></script></body>
+</html>
